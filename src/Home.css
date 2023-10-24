@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#home{
+    min-height: 76vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home--form{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input--url{
+    width: 70%;
+}
+
+.form--button{
+    height: 7.5vh;
+    width: 70px;
+    margin-left: 100px;
+}
+
+.formInput{
+    display: flex;
+    justify-content: center;
+}
+
+
+#home--note{
+    text-align: center;
+    padding: 10vw;
+}
