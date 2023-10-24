@@ -12,7 +12,7 @@ export default function Home(){
     const [link, setLink] = useState(null);
 
     const urlChecker = (url) => {
-        const reg = new RegExp("(https:\/\/www\.instagram\.com\/(?:p|reel|tv)\/[a-zA-Z0-9_-]{11}\/)");
+        const reg = new RegExp("(https://www.instagram.com/(?:p|reel|tv)/[a-zA-Z0-9_-]{11}/)");
         const match = url.match(reg);
         return match;
     }
